@@ -33,7 +33,7 @@ public class Jokenpo {
 		
 		System.out.println("Qual a sua opção:");
 		voce = sc.nextInt();
-		computador = random.nextInt(3);
+		computador = random.nextInt(3) + 1;
 		
 		if ( voce == 1 && computador == 1 ) {
 			System.out.println("\nVocê escolheu Pedra");
